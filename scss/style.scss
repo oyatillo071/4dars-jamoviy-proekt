@@ -39,6 +39,145 @@ a {
   text-align: left;
 }
 
+
+.nav {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  padding: 16px 45px 16px 45px;
+  gap:46px;
+  background-color: #f9f9f9;
+  p {
+      display: flex;
+      align-items:center;
+      flex-wrap: nowrap;
+
+      font-family: "Poppins";
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22.5px;
+      text-align: left;
+      color: #151515;
+     
+  }
+  p:hover{
+      cursor: pointer;
+      color: red;
+  }
+}
+
+
+
+
+$C2: #6a983c;
+$C1: #151515;
+
+.header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 33px;
+
+    .active {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        color: $C2;
+    }
+
+    a {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        color: $C1;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+
+    .header-main-list {
+        gap: 38px;
+        display: flex;
+    }
+
+    a {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+        color: $C2;
+    }
+}
+
+.header-bottom {
+    margin-top: 56px;
+    margin-bottom: 56px;
+    justify-content: space-between;
+
+    align-items: center;
+    display: flex;
+}
+.header-serc {
+    padding: 11px;
+    width: 500px;
+    height: 42px;
+    border-radius: 12px;
+    border: 1px solid #d1d1d1;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    h2 {
+        font-family: "Poppins";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 22.5px;
+        text-align: left;
+        gap: 8px;
+        color: $C1;
+    }
+    h5 {
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+        color: #a9a9a9;
+    }
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+// carousel
 button,
 input[button] {
   padding: $btn-padding;
