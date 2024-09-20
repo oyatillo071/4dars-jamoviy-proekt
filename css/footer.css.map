@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/variables.scss"],"names":[],"mappings":"AACQ,2BACA,gCAKR,EACI,SACA,UACA,sBAGJ,WACI,iBACA,WACA,cAEJ,EACI,qBAEJ,KACI,YCtBe,qBDyBnB,EACI,MCtBa,QDuBb,sBCvBa,QDwBb,YC3Bc,uBD4Bd,eACA,gBACA,iBACA,gBAGJ,qBACA,QC/Ba,oBDgCb,YCrCmB,qBDsCnB,MCpCiB,QDqCjB","file":"footer.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/_menu.scss","../scss/_variables.scss"],"names":[],"mappings":"AACQ,2BACA,gCCFR,iBACI,iBACA,oBDEJ,EACE,SACA,UACA,sBAGF,WACE,iBACA,WACA,cAEF,EACE,qBAEF,GACI,gBAEJ,KACE,YEtBiB,qBFyBnB,EACE,MEtBe,QFuBf,sBEvBe,QFwBf,YE3BgB,uBF4BhB,eACA,gBACA,iBACA,gBAEF,qBAEE,QE/BW,oBFgCX,YErCiB,qBFsCjB,MEpCe,QFqCf","file":"footer.css"}
+>>>>>>> 1e74df50b269c5f1fc73ebef369e1ca8c6b2636d

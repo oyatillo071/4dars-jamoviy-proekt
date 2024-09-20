@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/variables.scss"
+    ],
+    "names": [],
+    "mappings": "AACQ,2BACA,gCAKR,EACI,SACA,UACA,sBAGJ,WACI,iBACA,WACA,cAEJ,EACI,qBAEJ,KACI,YCtBe,qBDyBnB,EACI,MCtBa,QDuBb,sBCvBa,QDwBb,YC3Bc,uBD4Bd,eACA,gBACA,iBACA,gBAGJ,qBACA,QC/Ba,oBDgCb,YCrCmB,qBDsCnB,MCpCiB,QDqCjB",
+    "file": "style.css"
+}

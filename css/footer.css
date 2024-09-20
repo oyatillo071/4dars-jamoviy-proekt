@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+@import'../style/font.css';@import'../style/normalize.css';*{margin:0;padding:0;box-sizing:border-box}.container{max-width:1170px;width:100%;margin:0 auto}a{text-decoration:none}body{font-family:"Poppins",sans-serif}a{color:#6a983c;text-decoration-color:#6a983c;font-family:"Open Sans",sans-serif;font-size:14px;font-weight:400;line-height:1.36;text-align:left}button,input[button]{padding:12px,16px,12px,16px;font-family:"Poppins",sans-serif;color:#151515;font-weight:700}/*# sourceMappingURL=footer.css.map */
+=======
+@import"../style/font.css";@import"../style/normalize.css";.manu__container{padding-top:64px;padding-bottom:64px}*{margin:0;padding:0;box-sizing:border-box}.container{max-width:1170px;width:100%;margin:0 auto}a{text-decoration:none}li{list-style:none}body{font-family:"Poppins",sans-serif}a{color:#6a983c;text-decoration-color:#6a983c;font-family:"Open Sans",sans-serif;font-size:14px;font-weight:400;line-height:1.36;text-align:left}button,input[button]{padding:12px,16px,12px,16px;font-family:"Poppins",sans-serif;color:#151515;font-weight:700}/*# sourceMappingURL=footer.css.map */
+>>>>>>> 1e74df50b269c5f1fc73ebef369e1ca8c6b2636d
