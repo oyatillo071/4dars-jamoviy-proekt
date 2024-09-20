@@ -22,3 +22,13 @@ window.addEventListener('load', () => {
 
     observer.observe({ entryTypes: ['resource'] });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const loader = document.querySelector('.loader');
+    const content = document.querySelector('.content');
+    setTimeout(function() {
+        loader.style.display = 'none';
+        content.style.display = 'block';
+    }, 3500);
+});
