@@ -39,7 +39,6 @@ a {
   text-align: left;
 }
 
-
 .nav {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -50,132 +49,147 @@ a {
   align-items: center;
   height: 55px;
   padding: 16px 45px 16px 45px;
-  gap:46px;
+  gap: 46px;
   background-color: #f9f9f9;
-  p {
-      display: flex;
-      align-items:center;
-      flex-wrap: nowrap;
+  a {
+    display: flex;
+    align-items: center;
 
-      font-family: "Poppins";
-      font-size: 15px;
-      font-weight: 500;
-      line-height: 22.5px;
-      text-align: left;
-      color: #151515;
-     
-  }
-  p:hover{
-      cursor: pointer;
-      color: red;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+    color: #151515;
+    transition: all 1s ease;
+  
+  &:hover {
+    cursor: pointer;
+    color: $C2;
+    transition: all 1s ease;
   }
 }
-
-
-
+}
 
 $C2: #6a983c;
 $C1: #151515;
 
 .header {
-    margin-top: 16px;
-    margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-list {
-    display: flex;
-    gap: 33px;
+  display: flex;
+  gap: 33px;
 
-    .active {
-        font-family: "Open Sans";
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16.34px;
-        text-align: left;
-        color: $C2;
-    }
+  .active {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: $C2;
+  }
 
-    a {
-        font-family: "Open Sans";
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16.34px;
-        text-align: left;
-        color: $C1;
-    }
-    a:hover{
-        cursor: pointer;
-    }
+  a {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: $C1;
+  }
+  a:hover {
+    cursor: pointer;
+  }
 }
 
 .header-main {
+  display: flex;
+  align-items: center;
+
+  .header-main-list {
+    gap: 38px;
     display: flex;
-    align-items: center;
+  }
 
-    .header-main-list {
-        gap: 38px;
-        display: flex;
-    }
-
-    a {
-        font-family: "Open Sans";
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16.34px;
-        text-align: left;
-        color: $C2;
-    }
+  a {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    color: $C2;
+  }
 }
 
 .header-bottom {
-    margin-top: 56px;
-    margin-bottom: 56px;
-    justify-content: space-between;
+  margin-top: 56px;
+  margin-bottom: 56px;
+  justify-content: space-between;
 
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 .header-serc {
-    padding: 11px;
-    width: 500px;
-    height: 42px;
-    border-radius: 12px;
-    border: 1px solid #d1d1d1;
-    background-color: #f9f9f9;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    h2 {
-        font-family: "Poppins";
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 22.5px;
-        text-align: left;
-        gap: 8px;
-        color: $C1;
-    }
-    h5 {
-        font-family: "Open Sans";
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19.07px;
-        text-align: left;
-        color: #a9a9a9;
-    }
+  padding: 11px;
+  width: 500px;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid #d1d1d1;
+  background-color: #f9f9f9;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  h2 {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    text-align: left;
+    gap: 8px;
+    color: $C1;
+  }
+ 
+}
+
+.input-search {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  width: 262px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+
+  &::placeholder {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #a9a9a9;
+    border: none;
+  }
+  &:focus{outline: none;
+    border: none;
+  }
 }
 
 .header-icon {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
-
 
 // carousel
 button,
@@ -221,7 +235,6 @@ button {
   align-items: center;
   justify-content: center;
 }
-
 
 // LOADER SECTION
 .loader {
@@ -699,135 +712,128 @@ h6 {
   }
 }
 
-
 // cards
-
-
-
 
 // CARDS AND PANEL
 
 .cards__container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 64px 45px;
+
+  .panel {
     display: flex;
-    align-items: center;
-    gap: 32px;
-    padding: 64px 45px;
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
 
-    .panel {
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-        gap: 12px;
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      color: rgba(21, 21, 21, 1);
+      margin-bottom: 4px;
+    }
+  }
 
-        h3 {
-            font-size: 18px;
-            font-weight: 600;
-            color: rgba(21, 21, 21, 1);
-            margin-bottom: 4px;
-        }
+  li {
+    list-style: none;
 
+    a {
+      color: rgba(106, 152, 60, 1);
+      font-size: 14px;
+      font-weight: 400;
+      transition: all 0.5s ease-out;
     }
 
-    li {
-        list-style: none;
-
-        a {
-            color: rgba(106, 152, 60, 1);
-            font-size: 14px;
-            font-weight: 400;
-            transition: all 0.5s ease-out;
-        }
-
-        a:hover {
-            color: rgb(47, 77, 18);
-        }
+    a:hover {
+      color: rgb(47, 77, 18);
     }
+  }
 
-    margin-bottom: 36px;
+  margin-bottom: 36px;
 }
 
 .button_card {
-    padding: 13px 16px;
-    display: flex;
-    align-items: center;
-    background-color: rgba(245, 245, 245, 1);
-    border-radius: 6px;
-    transition: all 0.5s ease-out;
-    display: flex;
-    gap: 20px;
-        align-items:center;
+  padding: 13px 16px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 6px;
+  transition: all 0.5s ease-out;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 
-    span {
-        color: rgba(21, 21, 21, 1);
-        font-size: 15px;
-        font-weight: 600;    
-    }
+  span {
+    color: rgba(21, 21, 21, 1);
+    font-size: 15px;
+    font-weight: 600;
+  }
 }
 
 .button_card:hover {
-    background-color: rgb(170, 168, 168);
+  background-color: rgb(170, 168, 168);
 }
-
 
 .cards {
-    display: flex;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
-
 .card {
-    padding: 16px;
-    border: 1px solid rgba(209, 209, 209, 1);
-    border-radius: 12px;
+  padding: 16px;
+  border: 1px solid rgba(209, 209, 209, 1);
+  border-radius: 12px;
 
-    h2 {
-        font-weight: 500;
-        font-size: 15px;
-        margin-top: 16px;
-        margin-bottom: 4px;
-        color: rgba(21, 21, 21, 1);
+  h2 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    color: rgba(21, 21, 21, 1);
+  }
+
+  p {
+    color: rgba(87, 87, 87, 1);
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .price-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .sub-price {
+      color: rgba(21, 21, 21, 1);
+      font-weight: 600;
+      font-size: 18px;
     }
 
-    p {
-        color: rgba(87, 87, 87, 1);
-        font-weight: 400;
-        font-size: 12px;
-        margin-bottom: 16px;
+    button {
+      background-color: rgba(106, 152, 60, 1);
+      border: 2px solid rgba(70, 118, 10, 1);
+      border-radius: 12px;
+      color: #fff;
+      padding: 7px 12px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.5s ease-out;
     }
 
-    .price-card {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        .sub-price {
-            color: rgba(21, 21, 21, 1);
-            font-weight: 600;
-            font-size: 18px;
-        }
-
-        button {
-            background-color: rgba(106, 152, 60, 1);
-            border: 2px solid rgba(70, 118, 10, 1);
-            border-radius: 12px;
-            color: #fff;
-            padding: 7px 12px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.5s ease-out;
-        }
-
-        button:hover {
-            background-color: transparent;
-            color: rgba(106, 152, 60, 1);
-        }
+    button:hover {
+      background-color: transparent;
+      color: rgba(106, 152, 60, 1);
     }
+  }
 
-    h4 {
-        color: rgba(169, 169, 169, 1);
-        font-size: 12px;
-        font-weight: 400;
-        text-decoration: line-through;
-    }
+  h4 {
+    color: rgba(169, 169, 169, 1);
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: line-through;
+  }
 }
